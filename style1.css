@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+
+header {
+    background: url(./5183000.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: blue;
+    background-color: aquamarine;
+}
+body nav {
+    justify-content: space-around;
+    display: flex;
+    padding: 1.0em;
+    text-decoration: none;
+    background-color: peachpuff;
+}
+body nav a:hover {
+    color: rgb(82, 179, 223);
+    transform: scale(125%);
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+    background-color: plum;
+}
+
+figure > img{
+    width: 300px;
+    margin: 0 1em;
+    float: left;
+    margin-right: 10px;
+
+}
